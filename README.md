@@ -1,19 +1,25 @@
 # ETL_IN_Python_-GET_EU_population-
 
-# EU Population ETL Pipeline
+This project demonstrates a simple ETL pipeline for retrieving, storing, and visualizing European population data.
 
-This project scrapes European Union countries' population data (and individual country historical and forecast population) from Worldometers, transforms it, and loads it into a Microsoft SQL Server database.
+## 📌 Project Overview
 
----
-
-## 📌 Features
-
-✅ Scrapes EU countries population table from Worldometers  
-✅ Scrapes individual country's historical & forecast population tables  
-✅ Cleans and transforms data (removes %, commas, fixes numerics)  
-✅ Loads data to MS SQL Server using SQLAlchemy  
+- **Extract**: Fetch EU population data from a web source using Python.
+- **Transform**: Clean and prepare the data using pandas.
+- **Load**: Insert the transformed data into a SQL database.
+- **Visualize**: Build an interactive Power BI dashboard using data from the SQL database.
 
 ---
 
-## 📌 Project Structure
+## ✅ Features
+
+- Fully scripted ETL process in Python
+- Database storage for structured data
+- Power BI dashboard file (.pbix) included
+- Easy to customize for other data sources
+
+---
+
+## 📂 Project Structure
+
 
